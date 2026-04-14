@@ -43,7 +43,7 @@ function [] = planeintersection(P1, P2)
     d = -R(1, 4).* lb1 - R(2, 4).*lb2;  % Direction vector (parameter mu2)
 
     % Display solution
-    fprintf("Point: [%f; %f; %f]\n", p);
-    fprintf("Direction: [%f; %f; %f]\n", d);
+    fprintf('Point: [%f; %f; %f]\n', p);
+    fprintf('Direction: [%f; %f; %f]\n', d);
 
 end
